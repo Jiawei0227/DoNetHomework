@@ -1,0 +1,5 @@
+E:\C#workplace\Homework1\Homework1\obj\Debug\FileParser.csprojResolveAssemblyReference.cache
+E:\C#workplace\Homework1\Homework1\bin\Debug\FileParser1.0.dll
+E:\C#workplace\Homework1\Homework1\bin\Debug\FileParser1.0.pdb
+E:\C#workplace\Homework1\Homework1\obj\Debug\FileParser1.0.dll
+E:\C#workplace\Homework1\Homework1\obj\Debug\FileParser1.0.pdb
