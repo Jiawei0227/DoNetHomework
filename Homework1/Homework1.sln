@@ -1,13 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileParser", "Homework1\FileParser.csproj", "{17A4E314-55FE-4C5D-873A-BC3DD95B1DCB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileParserTest", "FileParserTest\FileParserTest.csproj", "{BAAD3DE3-5739-4BD3-917C-61CFB52769CA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileParserApp", "FileParserApp\FileParserApp.csproj", "{DD6598B8-7732-4BA8-B6A1-253158542118}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileParserWebApp", "FileParserWebApp\FileParserWebApp.csproj", "{0C929F3D-F183-4267-9507-2F013F715C4A}"
 EndProject
@@ -25,10 +23,6 @@ Global
 		{BAAD3DE3-5739-4BD3-917C-61CFB52769CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAAD3DE3-5739-4BD3-917C-61CFB52769CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAAD3DE3-5739-4BD3-917C-61CFB52769CA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DD6598B8-7732-4BA8-B6A1-253158542118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DD6598B8-7732-4BA8-B6A1-253158542118}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DD6598B8-7732-4BA8-B6A1-253158542118}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DD6598B8-7732-4BA8-B6A1-253158542118}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0C929F3D-F183-4267-9507-2F013F715C4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0C929F3D-F183-4267-9507-2F013F715C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C929F3D-F183-4267-9507-2F013F715C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU

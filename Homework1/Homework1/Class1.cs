@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.VisualBasic.FileIO;
 
 namespace Homework1
 {
@@ -39,6 +40,15 @@ namespace Homework1
             }
         }
 
+        public void deleteFile(String path)
+        {
+            //判断文件是不是存在
+            if (File.Exists(path))
+            {
+                //如果存在则删除文件到回收站
+                FileSystem.DeleteFile(path, UIOption.OnlyErrorDialogs, RecycleOption.SendToRecycleBin);
+            }
+        }
     }
 
     public class myFile
@@ -47,17 +57,21 @@ namespace Homework1
         private String name;
         private String size;
         private String createTime;
+        public bool getIsDir()
+        {
+            return isDir;
+        }
         public String getName()
         {
             return name;
         }
         public String getCreateTime()
         {
-            return name;
+            return createTime;
         }
         public String getSize()
         {
-            return name;
+            return size;
         }
         private void setSize(long len)
         {
