@@ -1,0 +1,4 @@
+E:\study\workplaceC#\DoNetHomework\Homework1\FileParser1.0\bin\Debug\FileParser1.0.dll
+E:\study\workplaceC#\DoNetHomework\Homework1\FileParser1.0\bin\Debug\FileParser1.0.pdb
+E:\study\workplaceC#\DoNetHomework\Homework1\FileParser1.0\obj\Debug\FileParser1.0.dll
+E:\study\workplaceC#\DoNetHomework\Homework1\FileParser1.0\obj\Debug\FileParser1.0.pdb

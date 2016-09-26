@@ -11,10 +11,11 @@ namespace Homework1
         static void Main(string[] args)
         {
             FileParser fp = new FileParser();
-            myFile[] re = fp.getFile("E:/C#workplace/ConsoleApplication1/ConsoleApplication1");
-            foreach (myFile s in re)
-                Console.WriteLine(s.getName());
-            Console.ReadLine();
+            fp.deleteFile("E:/study/编译原理/test.txt");
+            //myFile[] re = fp.getFile("E:/C#workplace/ConsoleApplication1/ConsoleApplication1");
+            //foreach (myFile s in re)
+             //   Console.WriteLine(s.getName());
+          //  Console.ReadLine();
         }
     }
 }
