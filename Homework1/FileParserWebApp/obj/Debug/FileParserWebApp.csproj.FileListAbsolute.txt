@@ -64,5 +64,3 @@ E:\study\workplaceC#\DoNetHomework\Homework1\FileParserWebApp\bin\Microsoft.Code
 E:\study\workplaceC#\DoNetHomework\Homework1\FileParserWebApp\obj\Debug\FileParserWebApp.csprojResolveAssemblyReference.cache
 E:\study\workplaceC#\DoNetHomework\Homework1\FileParserWebApp\obj\Debug\FileParserWebApp.dll
 E:\study\workplaceC#\DoNetHomework\Homework1\FileParserWebApp\obj\Debug\FileParserWebApp.pdb
-E:\study\workplaceC#\DoNetHomework\Homework1\FileParserWebApp\bin\FileParser1.0.dll
-E:\study\workplaceC#\DoNetHomework\Homework1\FileParserWebApp\bin\FileParser1.0.pdb
