@@ -109,49 +109,51 @@ namespace Homework1
             }
         }
 
-        public class myFile
+        
+
+
+    }
+
+    public class myFile
+    {
+        private bool isDir;
+        private String name;
+        private String size;
+        private String createTime;
+        public bool getIsDir()
         {
-            private bool isDir;
-            private String name;
-            private String size;
-            private String createTime;
-            public bool getIsDir()
-            {
-                return isDir;
-            }
-            public String getName()
-            {
-                return name;
-            }
-            public String getCreateTime()
-            {
-                return createTime;
-            }
-            public String getSize()
-            {
-                return size;
-            }
-            private void setSize(long len)
-            {
-                //count the size of the file
-                if ((double)len / 1024 < 1)
-                    size = Math.Round((double)len, 2) + "B";
-                else if ((double)len / (1024 * 1024) < 1)
-                    size = Math.Round((double)len / 1024) + "KB";
-                else if ((double)len / (1024 * 1024 * 1024) < 1)
-                    size = Math.Round((double)len / (1024 * 1024)) + "MB";
-                else
-                    size = Math.Round((double)len / (1024 * 1024 * 1024)) + "G";
-            }
-            public myFile(bool isDir, String name, long size, String createTime)
-            {
-                this.isDir = isDir;
-                this.name = name;
-                this.setSize(size);
-                this.createTime = createTime;
-            }
+            return isDir;
         }
-
-
+        public String getName()
+        {
+            return name;
+        }
+        public String getCreateTime()
+        {
+            return createTime;
+        }
+        public String getSize()
+        {
+            return size;
+        }
+        private void setSize(long len)
+        {
+            //count the size of the file
+            if ((double)len / 1024 < 1)
+                size = Math.Round((double)len, 2) + "B";
+            else if ((double)len / (1024 * 1024) < 1)
+                size = Math.Round((double)len / 1024) + "KB";
+            else if ((double)len / (1024 * 1024 * 1024) < 1)
+                size = Math.Round((double)len / (1024 * 1024)) + "MB";
+            else
+                size = Math.Round((double)len / (1024 * 1024 * 1024)) + "G";
+        }
+        public myFile(bool isDir, String name, long size, String createTime)
+        {
+            this.isDir = isDir;
+            this.name = name;
+            this.setSize(size);
+            this.createTime = createTime;
+        }
     }
 }
