@@ -2,6 +2,16 @@
 <Students>
   <Student id="1">
     <Name>张三</Name>
+    <Age>18</Age>
     <Major>软件工程</Major>
+  </Student>
+  <Student id="2">
+    <Name>李四</Name>
+    <Age>23</Age>
+    <Major>软件工程</Major>
+  </Student>
+  <Student id="3">
+    <Name>王五</Name>
+    <Age>30</Age>
   </Student>
 </Students>

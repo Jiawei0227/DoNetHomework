@@ -21,6 +21,10 @@
         </xs:element>
       </xs:sequence>
     </xs:complexType>
+    <xs:unique name="studentUnique">
+      <xs:selector xpath="Student" />
+      <xs:field xpath="@id"></xs:field>
+    </xs:unique>
   </xs:element>
 
 </xs:schema>
