@@ -78,7 +78,52 @@ namespace Homwork3
             }
             return true;
         }
+        public static bool addLessonPlan(MyLessonPlan lessonplan)
+        {
+            string constr = "Data Source=magic;Initial catalog=SuperCourse;Integrated Security=True";
+            SqlConnection conn = new SqlConnection(constr);
+            conn.Open();
+ 
+            string insertStr = "insert into lessonplan values('" + lessonplan.Name + "','" + lessonplan.Xingqi + "','" + lessonplan.Time + "')";
+            SqlCommand sqlcommend = new SqlCommand(insertStr, conn);
+            sqlcommend.CommandType = System.Data.CommandType.Text;
+            int sdr;
+            try
+            {
+                sdr = sqlcommend.ExecuteNonQuery();
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return true;
+        }
 
-
+        public static bool deleteLessonPlan(string xingqi,string time)
+        {
+            string constr = "Data Source=magic;Initial catalog=SuperCourse;Integrated Security=True";
+            SqlConnection conn = new SqlConnection(constr);
+            conn.Open();
+            String deleteStr = "delete from lessonplan where xingqi='" + xingqi+"' and lessontime='"+time+"'";
+            SqlCommand sqlcommand = new SqlCommand(deleteStr, conn);
+            int sdr;
+            try
+            {
+                sdr = sqlcommand.ExecuteNonQuery();
+            }
+            catch
+            {
+                return false;
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return true;
+        }
     }
 }

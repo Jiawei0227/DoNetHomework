@@ -71,6 +71,7 @@
             this.myCourse.TabIndex = 2;
             this.myCourse.Text = "我的课程表";
             this.myCourse.UseVisualStyleBackColor = true;
+            this.myCourse.Click += new System.EventHandler(this.myCourse_Click);
             // 
             // courseDetail
             // 

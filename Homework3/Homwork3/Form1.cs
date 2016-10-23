@@ -35,5 +35,11 @@ namespace Homwork3
             f.ShowDialog();
         }
 
+        private void myCourse_Click(object sender, EventArgs e)
+        {
+            Form5 f = new Form5();
+            f.ShowDialog();
+        }
+
     }
 }

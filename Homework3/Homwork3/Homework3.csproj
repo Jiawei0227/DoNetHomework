@@ -69,13 +69,25 @@
     <Compile Include="Form4.Designer.cs">
       <DependentUpon>Form4.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
     <Compile Include="MyDataBaseModel.cs" />
+    <Compile Include="MyLessonPlan.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SuperCourseDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SuperCourseDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SuperCourseDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SuperCourseDataSet1.xsd</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -88,6 +100,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form4.resx">
       <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -117,6 +132,17 @@
     </None>
     <None Include="SuperCourseDataSet.xss">
       <DependentUpon>SuperCourseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SuperCourseDataSet1.xsc">
+      <DependentUpon>SuperCourseDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="SuperCourseDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SuperCourseDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SuperCourseDataSet1.xss">
+      <DependentUpon>SuperCourseDataSet1.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
